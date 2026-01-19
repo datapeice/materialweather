@@ -19,3 +19,22 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# Игнорировать предупреждения о недостающих классах Sceneform и Filament
+-dontwarn com.google.android.filament.**
+-dontwarn com.google.ar.sceneform.**
+-dontwarn com.google.ar.schemas.**
+-dontwarn com.google.flatbuffers.**
+
+# Если вы используете эти библиотеки, оставьте их
+-keep class com.google.android.filament.** { *; }
+-keep class com.google.ar.sceneform.** { *; }
+-keep class com.datapeice.weatherexpressive.data.model.** { *; }
+# Retrofit
+-keepattributes Signature, InnerClasses, AnnotationDefault
+-keep class retrofit2.** { *; }
+-dontwarn retrofit2.**
+
+# Gson (если используешь)
+-keep class com.google.gson.** { *; }
+-keepattributes *Annotation*

@@ -18,13 +18,25 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    signingConfigs {
+        create("release") {
+            // Укажи путь к своему файлу ключа
+            storeFile = file("../my-release-key.jks")
+            storePassword = "твой_пароль_от_хранилища"
+            keyAlias = "key0"
+            keyPassword = "твой_пароль_от_ключа"
+        }
+    }
     buildTypes {
-        release {
-            isMinifyEnabled = false
+        getByName("release") {
+            isMinifyEnabled = true // Сжатие кода (R8)
+            isShrinkResources = true // Удаление неиспользуемых ресурсов
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            // Привязываем настройки подписи к релизной сборке
+            signingConfig = signingConfigs.getByName("release")
         }
     }
     compileOptions {

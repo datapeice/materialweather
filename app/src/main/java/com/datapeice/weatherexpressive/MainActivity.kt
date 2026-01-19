@@ -23,6 +23,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.lifecycleScope
@@ -93,10 +94,9 @@ fun MainApp(
 
     Scaffold(
         bottomBar = {
-            // Контейнер позиционирования
             Box(
                 modifier = Modifier
-                    .fillMaxWidth() // Растягиваем контейнер, чтобы выровнять контент по центру
+                    .fillMaxWidth()
                     .padding(bottom = 30.dp), // Отступ только снизу
                 contentAlignment = Alignment.Center // Центрируем сам бар
             ) {
@@ -222,7 +222,7 @@ fun SlidingNavigationBar(
                             )
                             Spacer(modifier = Modifier.width(8.dp))
                             Text(
-                                text = screen.title,
+                                text = stringResource(id = screen.title),
                                 style = MaterialTheme.typography.labelMedium.copy( // Уменьшили шрифт для компактности
                                     fontWeight = FontWeight.Bold
                                 ),
