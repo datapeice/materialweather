@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Weather Expressive</string>
+    <string name="weather">Погода</string>
+    <string name="wind">Ветер</string>
+    <string name="humidity">Влажность</string>
+    <string name="feels_like">Ощущается как</string>
+    <string name="today">Сегодня</string>
+    <string name="weekly">Прогноз на неделю</string>
+    <string name="retry">Повторить</string>
+
+    <string name="settings_title">Настройки</string>
+    <string name="section_weather">Погода</string>
+    <string name="section_appearance">Оформление</string>
+    <string name="section_about">О приложении</string>
+    <string name="pick_city">Выбрать город</string>
+    <string name="search_placeholder">Поиск...</string>
+    <string name="units">Единицы измерения</string>
+    <string name="celsius">Цельсий (°C)</string>
+    <string name="fahrenheit">Фаренгейт (°F)</string>
+    <string name="dark_theme">Тёмная тема</string>
+    <string name="on">Вкл</string>
+    <string name="off">Выкл</string>
+    <string name="system">Системная</string>
+    <string name="developer">Разработчик</string>
+    <string name="website">Сайт</string>
+    <string name="repository">Репозиторий</string>
+    <string name="version">Версия</string>
+    <string name="contact">Связаться с разработчиком</string>
+    <string name="search_city">Поиск города...</string>
+
+    <string name="weather_clear">Ясно</string>
+    <string name="weather_cloudy">Облачно</string>
+    <string name="weather_partly_cloudy">Переменная облачность</string>
+    <string name="weather_fog">Туман</string>
+    <string name="weather_drizzle">Морось</string>
+    <string name="weather_rain">Дождь</string>
+    <string name="weather_snow">Снег</string>
+    <string name="weather_thunderstorm">Гроза</string>
+    <string name="weather_unknown">Неизвестно</string>
+    <string name="wind_unit_kmh">km/h</string>
+</resources>

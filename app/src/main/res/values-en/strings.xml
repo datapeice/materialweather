@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Weather Expressive</string>
+    <string name="weather">Weather</string>
+    <string name="wind">Wind</string>
+    <string name="humidity">Humidity</string>
+    <string name="feels_like">Feels Like</string>
+    <string name="today">Today</string>
+    <string name="weekly">Weekly Forecast</string>
+    <string name="retry">Retry</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="section_weather">Weather</string>
+    <string name="section_appearance">Appearance</string>
+    <string name="section_about">About</string>
+    <string name="pick_city">Pick a city</string>
+    <string name="search_placeholder">Search...</string>
+    <string name="units">Units</string>
+    <string name="celsius">Celsius (°C)</string>
+    <string name="fahrenheit">Fahrenheit (°F)</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="system">System</string>
+    <string name="developer">Developer</string>
+    <string name="website">Website</string>
+    <string name="repository">Repository</string>
+    <string name="version">Version</string>
+    <string name="contact">Contact developer</string>
+    <string name="search_city">Search city...</string>
+
+    <string name="weather_clear">Clear</string>
+    <string name="weather_cloudy">Cloudy</string>
+    <string name="weather_partly_cloudy">Partly cloudy</string>
+    <string name="weather_fog">Fog</string>
+    <string name="weather_drizzle">Drizzle</string>
+    <string name="weather_rain">Rain</string>
+    <string name="weather_snow">Snow</string>
+    <string name="weather_thunderstorm">Thunderstorm</string>
+    <string name="weather_unknown">Unknown</string>
+    <string name="wind_unit_kmh">km/h</string>
+</resources>

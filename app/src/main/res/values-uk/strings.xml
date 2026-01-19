@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Weather Expressive</string>
+    <string name="weather">Погода</string>
+    <string name="wind">Вітер</string>
+    <string name="humidity">Вологість</string>
+    <string name="feels_like">Відчувається як</string>
+    <string name="today">Сьогодні</string>
+    <string name="weekly">Прогноз на тиждень</string>
+    <string name="retry">Повторити</string>
+
+    <string name="settings_title">Налаштування</string>
+    <string name="section_weather">Погода</string>
+    <string name="section_appearance">Оформлення</string>
+    <string name="section_about">Про додаток</string>
+    <string name="pick_city">Обрати місто</string>
+    <string name="search_placeholder">Пошук...</string>
+    <string name="units">Одиниці виміру</string>
+    <string name="celsius">Цельсій (°C)</string>
+    <string name="fahrenheit">Фаренгейт (°F)</string>
+    <string name="dark_theme">Темна тема</string>
+    <string name="on">Увімк</string>
+    <string name="off">Вимк</string>
+    <string name="system">Системна</string>
+    <string name="developer">Розробник</string>
+    <string name="website">Сайт</string>
+    <string name="repository">Репозиторій</string>
+    <string name="version">Версія</string>
+    <string name="contact">Зв’язатися з розробником</string>
+    <string name="search_city">Пошук міста...</string>
+
+    <string name="weather_clear">Ясно</string>
+    <string name="weather_cloudy">Хмарно</string>
+    <string name="weather_partly_cloudy">Мінлива хмарність</string>
+    <string name="weather_fog">Туман</string>
+    <string name="weather_drizzle">Мряка</string>
+    <string name="weather_rain">Дощ</string>
+    <string name="weather_snow">Сніг</string>
+    <string name="weather_thunderstorm">Гроза</string>
+    <string name="weather_unknown">Невідомо</string>
+    <string name="wind_unit_kmh">км/год</string>
+</resources>

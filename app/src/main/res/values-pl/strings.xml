@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Weather Expressive</string>
+    <string name="weather">Pogoda</string>
+    <string name="wind">Wiatr</string>
+    <string name="humidity">Wilgotność</string>
+    <string name="feels_like">Odczuwalna</string>
+    <string name="today">Dzisiaj</string>
+    <string name="weekly">Prognoza tygodniowa</string>
+    <string name="retry">Ponów</string>
+
+    <string name="settings_title">Ustawienia</string>
+    <string name="section_weather">Pogoda</string>
+    <string name="section_appearance">Wygląd</string>
+    <string name="section_about">O aplikacji</string>
+    <string name="pick_city">Wybierz miasto</string>
+    <string name="search_placeholder">Szukaj...</string>
+    <string name="units">Jednostki</string>
+    <string name="celsius">Celsjusz (°C)</string>
+    <string name="fahrenheit">Fahrenheit (°F)</string>
+    <string name="dark_theme">Ciemny motyw</string>
+    <string name="on">Wł.</string>
+    <string name="off">Wył.</string>
+    <string name="system">Systemowy</string>
+    <string name="developer">Programista</string>
+    <string name="website">Strona www</string>
+    <string name="repository">Repozytorium</string>
+    <string name="version">Wersja</string>
+    <string name="contact">Kontakt z twórcą</string>
+    <string name="search_city">Szukaj miasta...</string>
+
+    <string name="weather_clear">Bezchmurnie</string>
+    <string name="weather_cloudy">Pochmurno</string>
+    <string name="weather_partly_cloudy">Częściowe zachmurzenie</string>
+    <string name="weather_fog">Mgła</string>
+    <string name="weather_drizzle">Mżawka</string>
+    <string name="weather_rain">Deszcz</string>
+    <string name="weather_snow">Śnieg</string>
+    <string name="weather_thunderstorm">Burza</string>
+    <string name="weather_unknown">Nieznane</string>
+    <string name="wind_unit_kmh">km/h</string>
+</resources>
