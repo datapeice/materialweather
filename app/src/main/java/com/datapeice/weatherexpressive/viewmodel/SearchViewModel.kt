@@ -1,11 +1,11 @@
-package com.datapeice.testap.viewmodel
+package com.datapeice.weatherexpressive.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.datapeice.testap.data.CityRepository
-import com.datapeice.testap.data.model.SearchResult
-import com.datapeice.testap.data.remote.RetrofitClient
+import com.datapeice.weatherexpressive.data.CityRepository
+import com.datapeice.weatherexpressive.data.model.SearchResult
+import com.datapeice.weatherexpressive.data.remote.RetrofitClient
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow

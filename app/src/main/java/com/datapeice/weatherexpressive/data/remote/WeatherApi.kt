@@ -1,7 +1,7 @@
-package com.datapeice.testap.data.remote
+package com.datapeice.weatherexpressive.data.remote
 
-import com.datapeice.testap.data.model.GeocodingResponse
-import com.datapeice.testap.data.model.WeatherResponse
+import com.datapeice.weatherexpressive.data.model.GeocodingResponse
+import com.datapeice.weatherexpressive.data.model.WeatherResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 

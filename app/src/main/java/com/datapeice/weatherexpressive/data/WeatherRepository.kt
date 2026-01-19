@@ -1,10 +1,10 @@
-package com.datapeice.testap.data.repository
+package com.datapeice.weatherexpressive.data.repository
 
 import android.content.Context
-import com.datapeice.testap.data.model.SearchResult
-import com.datapeice.testap.data.model.WeatherResponse
-import com.datapeice.testap.data.remote.WeatherApi
-import com.datapeice.testap.utils.Transliterator
+import com.datapeice.weatherexpressive.data.model.SearchResult
+import com.datapeice.weatherexpressive.data.model.WeatherResponse
+import com.datapeice.weatherexpressive.data.remote.WeatherApi
+import com.datapeice.weatherexpressive.utils.Transliterator
 import com.google.gson.Gson
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

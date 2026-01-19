@@ -1,4 +1,4 @@
-package com.datapeice.testap.ui.screens
+package com.datapeice.weatherexpressive.ui.screens
 
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.animateDpAsState
@@ -31,10 +31,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.datapeice.testap.R
-import com.datapeice.testap.utils.WeatherUtils
-import com.datapeice.testap.viewmodel.WeatherUiState
-import com.datapeice.testap.viewmodel.WeatherViewModel
+import com.datapeice.weatherexpressive.R
+import com.datapeice.weatherexpressive.utils.WeatherUtils
+import com.datapeice.weatherexpressive.viewmodel.WeatherUiState
+import com.datapeice.weatherexpressive.viewmodel.WeatherViewModel
 import java.time.LocalDate
 import java.time.LocalTime
 import java.time.format.DateTimeFormatter
@@ -133,7 +133,7 @@ fun WeatherScreen(
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = Color.Transparent,
                     // Фон при скролле (можно сделать полупрозрачным, если нужно)
-                    scrolledContainerColor = MaterialTheme.colorScheme.background.copy(alpha = 0.95f),
+                    scrolledContainerColor = MaterialTheme.colorScheme.background.copy(),
                     titleContentColor = MaterialTheme.colorScheme.onBackground
                 ),
                 scrollBehavior = scrollBehavior
@@ -180,7 +180,7 @@ fun WeatherScreen(
 
 @Composable
 fun WeatherExpressiveContent(
-    data: com.datapeice.testap.data.model.WeatherResponse,
+    data: com.datapeice.weatherexpressive.data.model.WeatherResponse,
     cityName: String,
     isCelsius: Boolean,
     scrollState: androidx.compose.foundation.ScrollState,

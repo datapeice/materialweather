@@ -1,4 +1,4 @@
-package com.datapeice.testap.ui.theme
+package com.datapeice.weatherexpressive.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

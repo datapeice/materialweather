@@ -1,4 +1,4 @@
-package com.datapeice.testap
+package com.datapeice.weatherexpressive
 
 import org.junit.Test
 

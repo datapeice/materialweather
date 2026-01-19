@@ -1,4 +1,4 @@
-package com.datapeice.testap.data.remote
+package com.datapeice.weatherexpressive.data.remote
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

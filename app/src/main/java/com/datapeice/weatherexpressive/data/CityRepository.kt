@@ -1,8 +1,8 @@
-package com.datapeice.testap.data
+package com.datapeice.weatherexpressive.data
 
-import com.datapeice.testap.data.model.SearchResult
-import com.datapeice.testap.data.remote.WeatherApi
-import com.datapeice.testap.utils.Transliterator // Убедись, что создал Transliterator (см. ниже)
+import com.datapeice.weatherexpressive.data.model.SearchResult
+import com.datapeice.weatherexpressive.data.remote.WeatherApi
+import com.datapeice.weatherexpressive.utils.Transliterator // Убедись, что создал Transliterator (см. ниже)
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

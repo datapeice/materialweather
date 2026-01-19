@@ -1,4 +1,4 @@
-package com.datapeice.testap.utils
+package com.datapeice.weatherexpressive.utils
 
 object Transliterator {
     private val charMap = mapOf(

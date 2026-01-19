@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.datapeice.testap"
+    namespace = "com.datapeice.weatherexpressive"
     compileSdk = 35 // Используй 35 (Android 15), 36 еще в глубоком превью
 
     defaultConfig {
-        applicationId = "com.datapeice.testap"
+        applicationId = "com.datapeice.weatherexpressive"
         minSdk = 32
         targetSdk = 35
         versionCode = 1

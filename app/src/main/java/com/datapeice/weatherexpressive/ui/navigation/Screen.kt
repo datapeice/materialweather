@@ -1,4 +1,4 @@
-package com.datapeice.testap.ui.navigation
+package com.datapeice.weatherexpressive.ui.navigation
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Settings

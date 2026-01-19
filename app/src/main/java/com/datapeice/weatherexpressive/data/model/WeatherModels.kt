@@ -1,4 +1,4 @@
-package com.datapeice.testap.data.model
+package com.datapeice.weatherexpressive.data.model
 
 import com.google.gson.annotations.SerializedName
 

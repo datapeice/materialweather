@@ -1,4 +1,4 @@
-package com.datapeice.testap
+package com.datapeice.weatherexpressive
 
 import android.graphics.Color as AndroidColor
 import android.os.Bundle
@@ -17,14 +17,12 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.lifecycleScope
@@ -34,12 +32,12 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.datapeice.testap.data.ThemeSettings
-import com.datapeice.testap.ui.navigation.Screen
-import com.datapeice.testap.ui.screens.SettingsScreen
-import com.datapeice.testap.ui.screens.WeatherScreen
-import com.datapeice.testap.ui.theme.WeatherExpressiveTheme
-import com.datapeice.testap.viewmodel.WeatherViewModel
+import com.datapeice.weatherexpressive.data.ThemeSettings
+import com.datapeice.weatherexpressive.ui.navigation.Screen
+import com.datapeice.weatherexpressive.ui.screens.SettingsScreen
+import com.datapeice.weatherexpressive.ui.screens.WeatherScreen
+import com.datapeice.weatherexpressive.ui.theme.WeatherExpressiveTheme
+import com.datapeice.weatherexpressive.viewmodel.WeatherViewModel
 import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {
@@ -119,7 +117,7 @@ fun MainApp(
             composable(Screen.Weather.route) {
                 val viewModel: WeatherViewModel = viewModel()
                 LaunchedEffect(Unit) {
-                    if (viewModel.uiState.value is com.datapeice.testap.viewmodel.WeatherUiState.Loading) {
+                    if (viewModel.uiState.value is com.datapeice.weatherexpressive.viewmodel.WeatherUiState.Loading) {
                         viewModel.fetchWeather()
                     }
                 }

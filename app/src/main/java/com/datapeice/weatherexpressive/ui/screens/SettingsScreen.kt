@@ -1,6 +1,5 @@
-package com.datapeice.testap.ui.screens
+package com.datapeice.weatherexpressive.ui.screens
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -27,8 +26,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.datapeice.testap.R
-import com.datapeice.testap.viewmodel.WeatherViewModel
+import com.datapeice.weatherexpressive.R
+import com.datapeice.weatherexpressive.viewmodel.WeatherViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -225,7 +224,7 @@ fun SettingsScreen(
 fun SearchCityDialog(
     viewModel: WeatherViewModel,
     onDismiss: () -> Unit,
-    onCitySelected: (com.datapeice.testap.data.model.SearchResult) -> Unit
+    onCitySelected: (com.datapeice.weatherexpressive.data.model.SearchResult) -> Unit
 ) {
     var query by remember { mutableStateOf("") }
     val results by viewModel.searchResults.collectAsStateWithLifecycle()

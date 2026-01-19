@@ -1,9 +1,9 @@
-package com.datapeice.testap.utils
+package com.datapeice.weatherexpressive.utils
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.*
 import androidx.compose.ui.graphics.vector.ImageVector
-import com.datapeice.testap.R
+import com.datapeice.weatherexpressive.R
 import kotlin.math.roundToInt
 
 object WeatherUtils {
